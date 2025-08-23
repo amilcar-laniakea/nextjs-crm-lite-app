@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+.next/
+out/
+dist/
+
+# Config files that shouldn't be formatted
+*.config.js
+*.config.ts
+
+# Package files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Git
+.git/
+
+# Husky
+.husky/

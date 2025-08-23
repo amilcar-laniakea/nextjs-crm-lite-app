@@ -1,12 +1,22 @@
 {
   "editor.wordWrap": "wordWrapColumn",
-  "editor.wordWrapColumn": 90,
+  "editor.wordWrapColumn": 80,
   "editor.tabSize": 2,
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "always"
+    "source.fixAll.eslint": "always",
+    "source.organizeImports": "explicit"
   },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "eslint.run": "onType",
+  "eslint.workingDirectories": ["./"],
+  "eslint.format.enable": false,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -23,5 +33,7 @@
   "files.associations": {
     "*.svg": "html"
   },
-  "material-icon-theme.activeIconPack": "react"
+  "material-icon-theme.activeIconPack": "react",
+  "prettier.requireConfig": true,
+  "prettier.configPath": ".prettierrc"
 }
