@@ -6,7 +6,7 @@ node_modules/
 out/
 dist/
 
-# Config files
+# Config files that shouldn't be formatted
 *.config.js
 *.config.ts
 
@@ -14,3 +14,9 @@ dist/
 package-lock.json
 yarn.lock
 pnpm-lock.yaml
+
+# Git
+.git/
+
+# Husky
+.husky/

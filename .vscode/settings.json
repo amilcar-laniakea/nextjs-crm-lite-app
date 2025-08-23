@@ -33,5 +33,7 @@
   "files.associations": {
     "*.svg": "html"
   },
-  "material-icon-theme.activeIconPack": "react"
+  "material-icon-theme.activeIconPack": "react",
+  "prettier.requireConfig": true,
+  "prettier.configPath": ".prettierrc"
 }
