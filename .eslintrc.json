@@ -1,5 +1,6 @@
 {
   "extends": ["next/core-web-vitals"],
+  "ignorePatterns": ["src/components/ui/**/*"],
   "rules": {
     "no-unused-vars": "error",
     "no-console": "warn",
