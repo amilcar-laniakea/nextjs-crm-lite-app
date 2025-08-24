@@ -6,6 +6,9 @@ node_modules/
 out/
 dist/
 
+# UI Components (ignore from formatting)
+src/components/ui/
+
 # Config files that shouldn't be formatted
 *.config.js
 *.config.ts
